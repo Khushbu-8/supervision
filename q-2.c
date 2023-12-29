@@ -82,7 +82,7 @@ int main()
         printf("%d \n",stu[i].Physics);
         
         Total=stu[i].chamistry+stu[i].Mathematics+stu[i].Physics;
-        Total=sum*100/300;
+        Percent=Total*100/300;
         
         printf("Total :");
         printf("%d \n",Total);
